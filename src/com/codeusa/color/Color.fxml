@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.codeusa.color.ColorController">
+   <center>
+      <BorderPane prefHeight="803.0" prefWidth="1245.0" BorderPane.alignment="CENTER">
+         <center>
+            <Label fx:id="timeLabel" alignment="CENTER" blendMode="SRC_ATOP" contentDisplay="CENTER" prefHeight="182.0" prefWidth="1005.0" text="18:52:29" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Anonymous Pro" size="128.0" />
+               </font>
+            </Label>
+         </center>
+         <bottom>
+            <Label fx:id="hexLabel" alignment="CENTER" prefHeight="88.0" prefWidth="1245.0" text="#183620 " BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Anonymous Pro" size="32.0" />
+               </font>
+            </Label>
+         </bottom>
+      </BorderPane>
+   </center>
+</BorderPane>
